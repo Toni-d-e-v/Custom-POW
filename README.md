@@ -1,5 +1,5 @@
 # cryptographic-hash-finding-algorithm
-This is CLI script, that when given a 64-byte string, it finds a suitable 4-byte prefix so that, a SHA256 hash of the prefix combined with the original string of bytes, has two last bytes as 0xca, 0xfe. Script should expect the original string to be passed in hexadecimal format and should return two lines, first being the SHA256 string found and second 4-byte prefix used (in hexadecimal format). all made from screatch in python.
+This is a CLI script, that when given a 64-byte string, it finds a suitable 4-byte prefix so that, a SHA256 hash of the prefix combined with the original string of bytes, has two last bytes as 0xca, 0xfe that mades cofe you can change it so it finds hash with last to byte what ever you want or you can make it start with 30 zeros like how bitcoin work. Script should expect the original string to be passed in hexadecimal format and should return two lines, first being the SHA256 string found and second 4-byte prefix used (in hexadecimal format). all made from scratch in python.
 
 For example:
 ```
